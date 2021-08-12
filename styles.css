@@ -1,0 +1,134 @@
+/*
+external font-family options (see HTML link for more info):
+> Dancing Script
+> Gowun Batang
+> Indie Flower
+> Josefin Slab
+> Lora
+> WindSong
+*/
+
+* {
+    text-align: center;
+}
+
+section {
+    border: 10px solid #000;
+    width: 75%;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Colour Section*/
+.colours div {
+    width: 75%;
+    height: 100px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.colours p, .colours h3 {
+    font-family: Arial, sans-serif;    
+}
+
+.seaweed {
+    background-color: #2A3A30;
+    color: #fff;
+}
+.moss {
+    background-color: #254832;
+    color: #fff;
+}
+.eucalyptus {
+    background-color: #325d41;
+    color: #fff;
+}
+.autumnleaf {
+    background-color: #B48125;
+    color: #000;
+}
+.redearth {
+    background-color: #8c3f0d;
+    color: #000;
+}
+.oakwood {
+    background-color: #994e12;
+    color: #000;
+}
+
+/*Font Section*/
+.fonts div {
+    width: 40%;
+    height: 200px;
+    margin: 20 auto;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.fonts h3 {
+    text-decoration: underline;
+}
+
+.fonts p {
+    font-size: 20px;
+}
+
+.dancingscript {
+    font-family: 'Dancing Script';
+}
+.indieflower {
+    font-family: 'Indie Flower';
+}
+.windsong {
+    font-family: 'WindSong';
+}
+.gowunbatang {
+    font-family: 'Gowun Batang';
+}
+.josefinslab {
+    font-family: 'Josefin Slab';
+}
+.lora {
+    font-family: 'Lora';
+}
+
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+
+/*Text Styles Section*/
+.textstyles div {
+    width: 50%;
+    margin: 0 auto;
+    display: inline-block;
+
+}
+
+.textstyles li{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.heading {
+    font-size: 32px;
+    font-family: Lora, serif;
+    font-weight: 700;
+}
+
+.quote {
+    font-family: 'Indie Flower';
+    font-style: italic;
+    font-size: 24px;
+}
+
+.gentext {
+    font-family: 'Gowun Batang';
+    font-size: 18px;
+}
